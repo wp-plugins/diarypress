@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Diarypress
-Plugin URI: http://diarypress.howson.me.uk/
+Plugin Name: DiaryPress
+Plugin URI: http://www.howson.me.uk/diarypress
 Description: DiaryPress is a plugin designed to allow your blog to operate like a diary. It will disable RSS feeds to keep your blog private and ask you to login in order to access the content. This is handy even if you run your diary on a local web server such as WAMP as it protects your blog against nosey family and friends.
-Version: 2.1
+Version: 2.0
 Author: Tom Howson
 Author URI: http://www.howson.me.uk
 */

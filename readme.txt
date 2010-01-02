@@ -4,7 +4,7 @@ Tags: diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me.uk
 Requires at least: 2.6
 Tested up to: 2.9
-Stable tag: 2.1
+Stable tag: 2.0
 
 DiaryPress is a plugin designed to allow your blog to operate like a diary.
 

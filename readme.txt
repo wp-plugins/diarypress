@@ -1,7 +1,6 @@
 === DiaryPress ===
 Contributors: tomhowson
-Donate link: http://example.com/
-Tags: branding, diary, custom logo
+Tags: diary,login,access control,force login,rss
 Requires at least: 2.6
 Tested up to: 2.9
 Stable tag: 2.0
@@ -10,7 +9,7 @@ DiaryPress is a plugin designed to allow your blog to operate like a diary.
 
 == Description ==
 
-DiaryPress is a plugin designed to allow your blog to operate like a diary. It will disable rss feeds to keep your blog private. It will also ask you to login before being allows to view the blog. Finally it allows you to custom brand your login screen. 
+DiaryPress is a plugin designed to allow your blog to operate like a diary. It will disable RSS feeds to keep your blog private and ask you to login in order to access the content. This is handy even if you run your diary on a local web server such as WAMP as it protects your blog against nosey family and friends.
 
 See installation tab for instructions on how to install.
 

@@ -27,7 +27,7 @@ Installation is simple:
 
 == Frequently Asked Questions ==
 
-None yet use the support forums and I will update as needed
+None yet use the support forums and I will update as needed.
 
 == Screenshots ==
 

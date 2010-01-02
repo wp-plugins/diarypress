@@ -34,9 +34,6 @@ None yet use the support forums and I will update as needed.
 None at the moment.
 
 == Changelog ==
-
-= 2.1=
-Updated website information and general description, tweaked code ever so slightly for better performance. Sorry about the short gap between updates literally hours!
 = 2.0 =
 * Improved code quality, should now work with most major hosting providers
 * Changed the screen which is shown to a user when they are not logged in. Now uses standard core code
@@ -45,10 +42,5 @@ Updated website information and general description, tweaked code ever so slight
 * First release
 
 == Upgrade Notice ==
-
-
-= 2.1 =
-Made big improvements to code quality and user login screen. Now much easier to use, no more messing with splash.php
-
 = 2.0 =
 Made big improvements to code quality and user login screen. Now much easier to use, no more messing with splash.php

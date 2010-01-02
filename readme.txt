@@ -3,8 +3,8 @@ Contributors: tomhowson
 Donate link: http://example.com/
 Tags: branding, diary, custom logo
 Requires at least: 2.6
-Tested up to: 2.8
-Stable tag: 1.0
+Tested up to: 2.9
+Stable tag: 2.0
 
 DiaryPress is a plugin designed to allow your blog to operate like a diary.
 
@@ -21,18 +21,13 @@ Installation is simple:
 
 1. Upload the contents of diarypress.zip` to the `/wp-content/plugins/` directory
 
-2. Move the file splash.php to the main wordpress folder. You can check you have done this right by going to www.example.com/splash.php in your browser. 
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
-3. Activate the plugin through the 'Plugins' menu in WordPress
-
-4. Enjoy!
+3. Enjoy!
 
 == Frequently Asked Questions ==
 
-= How do I customise the logo? =
-
-I have supplied my logo found in the wp-content/plugins/diarypress/logo.jpg
-Simply replace with your logo to load. You can use my existing logo as a guide to ensure it works.
+None yet use the support forums and I will update as needed
 
 == Screenshots ==
 
@@ -40,5 +35,14 @@ None at the moment.
 
 == Changelog ==
 
+= 2.0 =
+* Improved code quality, should now work with most major hosting providers
+* Changed the screen which is shown to a user when they are not logged in. Now uses standard core code
+* Made the plugin installation easier - no more messing about with spalsh.php
 = 1.0 =
 * First release
+
+== Upgrade Notice ==
+
+= 2.0 =
+Made big improvements to code quality and user login screen. Now much easier to use, no more messing with splash.php

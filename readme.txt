@@ -3,7 +3,8 @@ Contributors: tomhowson
 Tags: diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me.uk
 Requires at least: 2.6
-Tested up to: 2.9
+Tested up to: 3.3.1
+Stable tag: trunk
 
 DiaryPress is a plugin designed to allow your blog to operate like a diary.
 
@@ -18,7 +19,7 @@ See installation tab for instructions on how to install.
 
 Installation is simple:
 
-1. Upload the contents of diarypress.zip` to the `/wp-content/plugins/` directory
+1. Upload the contents of diarypress.zip to the /wp-content/plugins/ directory
 
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -33,13 +34,18 @@ None yet use the support forums and I will update as needed.
 None at the moment.
 
 == Changelog ==
+= 3.0 =
+* Updated to be fully compatible with wordpress 3.0 and above 
+* Cleaned code
+* Corrected a url typo
+* Corrected a spelling mistake
 = 2.0 =
 * Improved code quality, should now work with most major hosting providers
 * Changed the screen which is shown to a user when they are not logged in. Now uses standard core code
-* Made the plugin installation easier - no more messing about with spalsh.php
+* Made the plugin installation easier - no more messing about with splash.php
 = 1.0 =
 * First release
 
 == Upgrade Notice ==
-= 2.0 =
-Made big improvements to code quality and user login screen. Now much easier to use, no more messing with splash.php
+= 3.0 =
+Now compatible with Wordpress 3.x and above

@@ -34,6 +34,8 @@ None yet use the support forums and I will update as needed.
 None at the moment.
 
 == Changelog ==
+= 3.1 =
+* Slight code tweak
 = 3.0 =
 * Updated to be fully compatible with wordpress 3.0 and above 
 * Cleaned code

@@ -1,9 +1,9 @@
 === DiaryPress ===
 Contributors: tomhowson
 Tags: diary,login,access control,force login,rss
-Donate Link: http://diarypress.howson.me.uk
+Donate Link: http://diarypress.howson.me
 Requires at least: 2.6
-Tested up to: 3.3.1
+Tested up to: 3.5
 Stable tag: trunk
 
 DiaryPress is a plugin designed to allow your blog to operate like a diary.

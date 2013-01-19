@@ -5,6 +5,7 @@ Donate Link: http://diarypress.howson.me
 Requires at least: 2.6
 Tested up to: 3.5
 Stable tag: trunk
+License: GPLv2
 
 DiaryPress is a plugin designed to allow your blog to operate like a diary.
 
@@ -27,7 +28,16 @@ Installation is simple:
 
 == Frequently Asked Questions ==
 
-None yet use the support forums and I will update as needed.
+=Where can I find advise on running a diary with wordpress?=
+
+In the next release I am going to add a information page to the plugin that will live under settings that will contain advise from my experience of 
+running a diary on wordpress for over 5 years. Longer term I plan to create a website to help.
+
+=Can I customise the splash page?=
+
+Yes, you can add images using standard html just add it between line 53 to the } commented with end. I am going to comment
+better in the future
+
 
 == Screenshots ==
 

@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: DiaryPress
-Plugin URI: http://www.howson.me/diarypress
+Plugin URI: http://diarypress.howson.me
 Description: DiaryPress is a plugin designed to allow your blog to operate like a diary. It will disable RSS feeds to keep your blog private and ask you to login in order to access the content. This is handy even if you run your diary on a local web server such as WAMP as it protects your blog against nosey family and friends.
-Version: 3.1
+Version: 4.0
 Author: Tom Howson
-Author URI: http://diarypress.howson.me
+Author URI: http://www.howson.me
 */
 ?>
 <?php
@@ -46,16 +46,25 @@ else {
 			{
 			
 // die and show error message
-	wp_die( __('
-<!-- we need this so that the xml publishing feature will work -->
+
+// Set title in browser
+$title = "Private Diary";
+//we know that the page came so pass http 200 so we don't get false interal server error headers
+
+ $args = array( 'response'   => '200', );
+
+
+// Keep the data in the body instead of a html file and calling it as we want some php variables.
+wp_die( ('
+
+<!-- we need this so that the xml atom publishing feature will work -->
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="'. get_bloginfo('url') .'/xmlrpc.php?rsd" />
 
-<h4><strong>Howson.me | Diary</strong></h4>
-<img class="alignnone size-medium wp-image-1623" title="" src="https://diary.howson.me/wp-content/uploads/2011/04/beaverandpear2.png" alt="" />
+<h4><strong>Private Diary</strong></h4>
+
 <p>You must log in to view this diary. If you want to <a href="'. get_bloginfo('url') .'/wp-admin">Click here</a></p>
 
-') );
-
+'), $title, $args );
 
 
 
@@ -70,7 +79,7 @@ else {
 <?php
 // turn the feeds off for our diary
 function norss() {
-	wp_die( __('<strong>Error:</strong> No RSS Feed Available, Please visit our <a href="'. get_bloginfo('url') .'">homepage</a>.') );
+	wp_die( __('<strong>Error:</strong> No RSS Feed Available, Please visit our <a href="'. get_bloginfo('url') .'">homepage</a>.',$title) );
 }
  
 add_action('do_feed', 'norss', 1);

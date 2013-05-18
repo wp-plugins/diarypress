@@ -30,7 +30,7 @@ Installation is simple:
 
 =Where can I find advise on running a diary with wordpress?=
 
-In the next release I am going to add a information page to the plugin that will live under settings that will contain advise from my experience of 
+In the next major release I am going to add a information page to the plugin that will live under settings that will contain advise from my experience of 
 running a diary on wordpress for over 5 years. Longer term I plan to create a website to help.
 
 =Can I customise the splash page?=
@@ -41,9 +41,13 @@ better in the future
 
 == Screenshots ==
 
-None at the moment.
+The default screen you see when you are not logged in. /assets/diaryshot.png
 
 == Changelog ==
+= 4.0 =
+* Now displays a title in the browser
+* Technical change to return HTTP code 200. This stops monitoring systems thinking a internal server error has occured
+* Taken advantage of improvements in wordpress core
 = 3.1 =
 * Slight code tweak
 = 3.0 =
@@ -59,5 +63,5 @@ None at the moment.
 * First release
 
 == Upgrade Notice ==
-= 3.0 =
-Now compatible with Wordpress 3.x and above
+= 4.0 =
+Improved code, added title and returns a correct HTTP 200 response

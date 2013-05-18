@@ -41,7 +41,7 @@ better in the future
 
 == Screenshots ==
 
-1. The default screen you see when you are not logged in. `/assets/diaryshot.png`
+1. The default screen you see when you are not logged in.
 
 == Changelog ==
 = 4.0 =

@@ -5,7 +5,8 @@ Donate Link: http://diarypress.howson.me
 Requires at least: 2.6
 Tested up to: 3.5
 Stable tag: trunk
-License: GPLv2
+License: GPLv3
+License URI: http://www.howson.me/licenses/gpl-3.0.html
 
 DiaryPress is a plugin designed to allow your blog to operate like a diary.
 
@@ -35,9 +36,35 @@ running a diary on wordpress for over 5 years. Longer term I plan to create a we
 
 =Can I customise the splash page?=
 
-Yes, you can add images using standard html just add it between line 53 to the } commented with end. I am going to comment
-better in the future
+Yes, you can add images or any standard html for that matter. Within the diarypress.php file, find line 58. The not logged in message starts on line 63. 
 
+`wp_die( ('
+
+<!-- we need this so that the xml atom publishing feature will work -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="'. get_bloginfo('url') .'/xmlrpc.php?rsd" />
+
+<h4><strong>Private Diary</strong></h4>
+
+<p>You must log in to view this diary. If you want to <a href="'. get_bloginfo('url') .'/wp-admin">Click here</a></p>
+
+'), $title, $args );
+`
+
+= Custom not logged in message examples =
+
+* Including a image in html - the whole code block is shown for clairty
+
+`wp_die( ('
+
+<!-- we need this so that the xml atom publishing feature will work -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="'. get_bloginfo('url') .'/xmlrpc.php?rsd" />
+
+<h4><strong>Private Diary</strong></h4>
+<img class="alignnone size-medium wp-image-1623" title="" src="http://example.com/wp-content/uploads/2013/04/image.png" alt="image" />
+<p>You must log in to view this diary. If you want to <a href="'. get_bloginfo('url') .'/wp-admin">Click here</a></p>
+
+'), $title, $args );
+`
 
 == Screenshots ==
 

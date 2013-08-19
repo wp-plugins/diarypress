@@ -59,7 +59,7 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 
 = Custom not logged in message examples =
 
-* Including a image in html - the whole code block is shown for clairty
+* Including a image in html - the whole code block is shown for clarity
 
 `wp_die( ('
 
@@ -78,9 +78,13 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 1. The default screen you see when you are not logged in.
 
 == Changelog ==
+= 4.5 =
+* Login process now returns to home page unless you are admin
+* Improved performance
+* Code comments improved
 = 4.0 =
 * Now displays a title in the browser
-* Technical change to return HTTP code 200. This stops monitoring systems thinking a internal server error has occured
+* Technical change to return HTTP code 200. This stops monitoring systems thinking a internal server error has occurred
 * Taken advantage of improvements in wordpress core
 = 3.1 =
 * Slight code tweak
@@ -97,5 +101,10 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 * First release
 
 == Upgrade Notice ==
+
 = 4.0 =
 Improved code, added title and returns a correct HTTP 200 response
+= 3.1 =
+Performance is improved and better login handling 
+= 3.0 =
+Performance is improved and better login handling

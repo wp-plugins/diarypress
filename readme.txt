@@ -8,7 +8,7 @@ Stable tag: trunk
 License: GPLv3
 License URI: http://www.howson.me/licenses/gpl-3.0.html
 
-DiaryPress is a plugin designed to allow your blog to operate like a diary by keeping it private.
+DiaryPress lets you keep a private diary.
 
 == Description ==
 

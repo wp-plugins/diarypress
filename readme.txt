@@ -1,12 +1,12 @@
 === DiaryPress ===
 Contributors: tomhowson
-Tags: diary,login,access control,force login,rss
+Tags: diary,private, private diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me
 Requires at least: 2.6
-Tested up to: 3.5
+Tested up to: 3.6.1
 Stable tag: trunk
 License: GPLv3
-License URI: http://www.howson.me/licenses/gpl-3.0.html
+License URI: http://gpl.howson.me
 
 DiaryPress lets you keep a private diary.
 
@@ -76,6 +76,8 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 == Screenshots ==
 
 1. The default screen you see when you are not logged in.
+
+2. Example of custom start screen
 
 == Changelog ==
 = 4.5 =

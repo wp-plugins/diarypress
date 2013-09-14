@@ -19,27 +19,37 @@ Key features:
 * Keeps your blog private
 * Works with all WordPress for mobile applications
 * Works with the native e-mail to blog feature
-* Tested on every WordPress release to ensure long term support
+* Tested on every new WordPress release to ensure long term support
 
 See installation tab for instructions on how to install.
 
 
 == Installation ==
 
-Installation is simple:
+There are two installation methods. 
 
-1. Upload the contents of diarypress.zip to the /wp-content/plugins/ directory
+Easy Method:
 
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Goto the Plugins section in the Wordpress dashboard and press add
 
-3. Enjoy!
+2. Search DiaryPress
+
+3. Click on the DiaryPress result and press install
+
+
+Manual method:
+
+1. Download from this site
+
+2. Upload the contents of diarypress.zip to the /wp-content/plugins/ directory
+
+3. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
-=Where can I find advise on running a diary with wordpress?=
+=Do you test every version of Wordpress with DiaryPress?=
 
-In the next major release I am going to add a information page to the plugin that will live under settings that will contain advise from my experience of 
-running a diary on wordpress for over 5 years. Longer term I plan to create a website to help.
+No. I test every new version released with DiaryPress. I strongly advise you keep Wordpress up-to-date.
 
 =Can I customise the splash page?=
 
@@ -73,6 +83,12 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 '), $title, $args );
 `
 
+=Where can I find advise on running a diary with Wordpress?=
+
+In the next major release I am going to add a information page to the plugin that will live under settings that will contain advise from my experience of 
+running a diary on Wordpress for over 5 years. Longer term I plan to create a website to help.
+
+
 == Screenshots ==
 
 1. The default screen you see when you are not logged in.
@@ -87,11 +103,11 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 = 4.0 =
 * Now displays a title in the browser
 * Technical change to return HTTP code 200. This stops monitoring systems thinking a internal server error has occurred
-* Taken advantage of improvements in wordpress core
+* Taken advantage of improvements in Wordpress core
 = 3.1 =
 * Slight code tweak
 = 3.0 =
-* Updated to be fully compatible with wordpress 3.0 and above 
+* Updated to be fully compatible with Wordpress 3.0 and above 
 * Cleaned code
 * Corrected a url typo
 * Corrected a spelling mistake
@@ -103,6 +119,10 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 * First release
 
 == Upgrade Notice ==
+
+= 4.5 =
+
+Better login handling. Easier than ever
 
 = 4.0 =
 Improved code, added title and returns a correct HTTP 200 response

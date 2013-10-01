@@ -12,13 +12,14 @@ DiaryPress lets you keep a private diary.
 
 == Description ==
 
-DiaryPress is a plugin designed to allow your blog to operate like a private diary. It will disable RSS feeds to keep your blog private and ask you to login in order to access the content. This is handy even if you run your diary on a local web server such as WAMP as it protects your blog against nosey family and friends. Alternatively if you like to write your diary on the go and keep your diary on an internet accessible server the plugin is fully compatible with all WordPress for mobile applications such as WordPress for iPhone.  The plugin is also compatible with the native WordPress e-mail to blog feature.
+DiaryPress is a plugin designed to allow your blog to operate like a private diary. It will ask you to login in order to access the content. This is handy even if you keep a diary on a local web server such as WAMP as it protects your blog against nosey family and friends. Alternatively if you like to write your diary on the go and keep your diary on an internet accessible server the plugin is fully compatible with all WordPress for mobile applications such as WordPress for iPhone.  The plugin is also compatible with the native WordPress e-mail to blog feature.
 
 Key features:
 
 * Keeps your blog private
 * Works with all WordPress for mobile applications
 * Works with the native e-mail to blog feature
+* Works with Mars Edit & Windows Live Writer
 * Tested on every new WordPress release to ensure long term support
 
 See installation tab for instructions on how to install.

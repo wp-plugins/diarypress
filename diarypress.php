@@ -3,12 +3,10 @@
 Plugin Name: DiaryPress
 Plugin URI: http://diarypress.howson.me
 Description: DiaryPress is a plugin designed to allow your blog to operate like a diary. It will disable RSS feeds to keep your blog private and ask you to login in order to access the content. This is handy even if you run your diary on a local web server such as WAMP as it protects your blog against nosey family and friends.
-Version: 4.5
+Version: 4.0
 Author: Tom Howson
 Author URI: http://www.howson.me
 */
-?>
-<?php
 
 // we need this to allow the wp-mail page to run
 if ($_SERVER['REQUEST_URI'] == get_bloginfo('url').'/wp-mail.php') {
@@ -78,9 +76,6 @@ wp_die( ('
 	} // force_login
 	
 } // End statement of not logged in and not a mail check
-	?>
-	
-<?php
 
 // Setup redirect function
 
@@ -106,10 +101,7 @@ function DiaryPress_login_redirect( $redirect_to, $request, $user ){
 }
 add_filter("login_redirect", "DiaryPress_login_redirect", 10, 3);
 // End redirect function
-?>
 
-
-<?php
 // turn the feeds off for our diary
 function norss() {
 	wp_die( __('<strong>Error:</strong> No RSS Feed Available, Please visit our <a href="'. get_bloginfo('url') .'">homepage</a>.',$title) );

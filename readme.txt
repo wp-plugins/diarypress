@@ -97,6 +97,9 @@ running a diary on Wordpress for over 5 years. Longer term I plan to create a we
 2. Example of custom start screen
 
 == Changelog ==
+= 4.6 =
+* Minor code improvements
+* Some server complain of headers already sent - resolved
 = 4.5 =
 * Login process now returns to home page unless you are admin
 * Improved performance
@@ -120,7 +123,8 @@ running a diary on Wordpress for over 5 years. Longer term I plan to create a we
 * First release
 
 == Upgrade Notice ==
-
+= 4.6 =
+Code improved, fixed php header message
 = 4.5 =
 
 Better login handling. Easier than ever

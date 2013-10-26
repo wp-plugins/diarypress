@@ -3,7 +3,7 @@ Contributors: tomhowson
 Tags: diary,private, private diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me
 Requires at least: 2.6
-Tested up to: 3.6.1
+Tested up to: 3.7
 Stable tag: trunk
 License: GPLv3
 License URI: http://gpl.howson.me

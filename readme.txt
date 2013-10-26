@@ -48,11 +48,11 @@ Manual method:
 
 == Frequently Asked Questions ==
 
-=Do you test every version of Wordpress with DiaryPress?=
+= Do you test every version of Wordpress with DiaryPress? =
 
 No. I test every new version released with DiaryPress. I strongly advise you keep Wordpress up-to-date.
 
-=Can I customise the splash page?=
+= Can I customise the splash page? =
 
 Yes, you can add images or any standard html for that matter. Within the diarypress.php file, find line 58. The not logged in message starts on line 63. 
 
@@ -84,7 +84,7 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 '), $title, $args );
 `
 
-=Where can I find advise on running a diary with Wordpress?=
+= Where can I find advise on running a diary with Wordpress? =
 
 In the next major release I am going to add a information page to the plugin that will live under settings that will contain advise from my experience of 
 running a diary on Wordpress for over 5 years. Longer term I plan to create a website to help.

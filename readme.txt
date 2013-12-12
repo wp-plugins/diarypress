@@ -3,7 +3,7 @@ Contributors: tomhowson
 Tags: diary,private, private diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me
 Requires at least: 2.6
-Tested up to: 3.7
+Tested up to: 3.8
 Stable tag: trunk
 License: GPLv3
 License URI: http://gpl.howson.me
@@ -86,8 +86,7 @@ Yes, you can add images or any standard html for that matter. Within the diarypr
 
 = Where can I find advise on running a diary with Wordpress? =
 
-In the next major release I am going to add a information page to the plugin that will live under settings that will contain advise from my experience of 
-running a diary on Wordpress for over 5 years. Longer term I plan to create a website to help.
+I
 
 
 == Screenshots ==
@@ -99,7 +98,7 @@ running a diary on Wordpress for over 5 years. Longer term I plan to create a we
 == Changelog ==
 = 4.6 =
 * Minor code improvements
-* Some server complain of headers already sent - resolved
+* Some servers complain of headers already sent - resolved
 = 4.5 =
 * Login process now returns to home page unless you are admin
 * Improved performance

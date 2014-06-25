@@ -2,8 +2,8 @@
 Contributors: tomhowson
 Tags: diary,private, private diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me
-Requires at least: 2.6
-Tested up to: 3.9
+Requires at least: 3.0
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv3
 License URI: http://gpl.howson.me
@@ -54,39 +54,15 @@ No. I test every new version released with DiaryPress. I strongly advise you kee
 
 = Can I customise the splash page? =
 
-Yes, you can add images or any standard html for that matter. Within the diarypress.php file, find line 58. The not logged in message starts on line 63. 
-
-`wp_die( ('
-
-<!-- we need this so that the xml atom publishing feature will work -->
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="'. get_bloginfo('url') .'/xmlrpc.php?rsd" />
-
-<h4><strong>Private Diary</strong></h4>
-
-<p>You must log in to view this diary. If you want to <a href="'. get_bloginfo('url') .'/wp-admin">Click here</a></p>
-
-'), $title, $args );
-`
+Yes, use the new settings page!
 
 = Custom not logged in message examples =
 
-* Including a image in html - the whole code block is shown for clarity
-
-`wp_die( ('
-
-<!-- we need this so that the xml atom publishing feature will work -->
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="'. get_bloginfo('url') .'/xmlrpc.php?rsd" />
-
-<h4><strong>Private Diary</strong></h4>
-<img class="alignnone size-medium wp-image-1623" title="" src="http://example.com/wp-content/uploads/2013/04/image.png" alt="image" />
-<p>You must log in to view this diary. If you want to <a href="'. get_bloginfo('url') .'/wp-admin">Click here</a></p>
-
-'), $title, $args );
-`
+Use the new settings page!
 
 = Where can I find advise on running a diary with Wordpress? =
 
-I
+To follow
 
 
 == Screenshots ==
@@ -96,6 +72,17 @@ I
 2. Example of custom start screen
 
 == Changelog ==
+=5.0=
+* Custom messages can now be done in wordpress
+* Large rewrite to enable new settings screen
+* No need to chop the code up anymore - Woo!
+* Due to code change requires minimum Wordpress 3.0+
+=4.9=
+Never Released - DEV build
+=4.8=
+Never Released - DEV build
+= 4.7=
+never Released - DEV build
 = 4.6 =
 * Minor code improvements
 * Some servers complain of headers already sent - resolved

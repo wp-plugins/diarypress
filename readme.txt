@@ -67,22 +67,24 @@ To follow
 
 == Screenshots ==
 
-1. The default screen you see when you are not logged in.
+1. The DiaryPress Settings page
 
 2. Example of custom start screen
 
+3. The default screen you see when you are not logged in.
+
 == Changelog ==
-=5.0=
+= 5.0 =
 * Custom messages can now be done in wordpress
 * Large rewrite to enable new settings screen
 * No need to chop the code up anymore - Woo!
 * Due to code change requires minimum Wordpress 3.0+
-=4.9=
-Never Released - DEV build
-=4.8=
-Never Released - DEV build
+= 4.9 =
+*Never Released - DEV build
+= 4.8 =
+*Never Released - DEV build
 = 4.7=
-never Released - DEV build
+*Never Released - DEV build
 = 4.6 =
 * Minor code improvements
 * Some servers complain of headers already sent - resolved

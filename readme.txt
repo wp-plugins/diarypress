@@ -3,7 +3,7 @@ Contributors: tomhowson
 Tags: diary,private, private diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me
 Requires at least: 3.0
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: trunk
 License: GPLv3
 License URI: http://gpl.howson.me
@@ -80,9 +80,9 @@ To follow
 * No need to chop the code up anymore - Woo!
 * Due to code change requires minimum Wordpress 3.0+
 = 4.9 =
-*Never Released - DEV build
+* Never Released - DEV build
 = 4.8 =
-*Never Released - DEV build
+* Never Released - DEV build
 = 4.7=
 *Never Released - DEV build
 = 4.6 =

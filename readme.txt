@@ -50,11 +50,16 @@ Manual method:
 
 = Do you test every version of Wordpress with DiaryPress? =
 
-No. I test every new version released with DiaryPress. I strongly advise you keep Wordpress up-to-date.
+I only test the latest version of Wordpress with the plugin. The plugin should work with any version later than version 3.0, however I don't test it. If you have a problem let me know. I strongly advise you keep Wordpress up-to-date.
 
 = Can I customise the splash page? =
 
-Yes, use the new settings page!
+Yes!  you can do this by following the instructions below. You must have the administrative role in Wordpress to do this.
+
+1. Go Settings > DiaryPress
+2. To customise the Page title enter it here
+3. To customise the Page heading enter it here
+4. To customise the logo simply enter the url to the image you want to load after uploading it using Wordpress' media manager.
 
 = Custom not logged in message examples =
 
@@ -84,7 +89,7 @@ To follow
 = 4.8 =
 * Never Released - DEV build
 = 4.7=
-*Never Released - DEV build
+* Never Released - DEV build
 = 4.6 =
 * Minor code improvements
 * Some servers complain of headers already sent - resolved

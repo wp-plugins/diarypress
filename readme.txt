@@ -3,7 +3,7 @@ Contributors: tomhowson
 Tags: diary,private, private diary,login,access control,force login,rss
 Donate Link: http://diarypress.howson.me
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv3
 License URI: http://gpl.howson.me
@@ -12,7 +12,7 @@ DiaryPress lets you keep a private diary.
 
 == Description ==
 
-DiaryPress is a plugin designed to allow your blog to operate like a private diary. It will ask you to login in order to access the content. This is handy even if you keep a diary on a local web server such as WAMP as it protects your blog against nosey family and friends. Alternatively if you like to write your diary on the go and keep your diary on an internet accessible server the plugin is fully compatible with all WordPress for mobile applications such as WordPress for iPhone.  The plugin is also compatible with the native WordPress e-mail to blog feature.
+DiaryPress is a plugin designed to allow your blog to operate like a private diary. It will ask you to login in order to see any of the content on the wordpress site. This is handy even if you keep a diary on a local web server such as WAMP as it protects your blog against nosey family and friends. Alternatively if you like to write your diary on the go and keep your diary on an internet accessible server the plugin is fully compatible with all WordPress for mobile applications such as WordPress for iPhone.  The plugin is also compatible with the native WordPress e-mail to blog feature.
 
 Key features:
 
